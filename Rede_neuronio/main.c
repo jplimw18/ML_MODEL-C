@@ -22,16 +22,6 @@ typedef struct {
     Xor better;
 } Gens;
 
-Gens* init_gen(size_t range)
-{
-    Gens* gen = malloc(sizeof(Xor));
-    gen->ephocs = calloc(range, sizeof(Xor));
-}
-
-void get_better(Gens* g)
-{
-    
-}
 
 float sigmoidf(float x)
 {
