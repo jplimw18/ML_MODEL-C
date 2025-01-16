@@ -201,7 +201,7 @@ Xor finite_diff(Xor m, float eps)
 
 int main(void)
 {
-    size_t ephocs = 10;
+    size_t ephocs = 5;
 
     for (size_t e = 0; e < ephocs; ++e) {
         srand(time(0));
